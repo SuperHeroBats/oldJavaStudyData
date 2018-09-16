@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">testonClick</string>
+    <string name="dl">匿名内部类</string>
+    <string name="qr">外部类实现</string>
+    <string name="jk">接口实现</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_alignBottom="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="二" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button2"
+        android:text="Button" />
+
+
+    <!--
+    layout_alignParentRight系列属性可以控制控件最上面最右边等等
+    layout_margin系列属性可以设置控件距离父类控件的边距
+    layout_centerInParent系列属性控制控件居中还是水平
+
+    layout_below控制该控件定位于某控件的底部
+    toRightOf右边 toLeftOf左边 above上面
+
+    layout_alignBaseline控制两个控件内容水平线(需要写在小控件里)
+    layout_alignBottom控件底部边缘对齐 Top Right Left
+    -->
+
+</RelativeLayout>

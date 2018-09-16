@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="bottom|center"
+    tools:context=".MainActivity">
+
+    <!--
+    orientation决定控件水平放置还是垂直
+
+    gravity决定控件XY位置
+    可以多级联用 使用|可以添加多属性
+    layout_gravity为子类控件属性,自身在父类容器中的位置
+
+    weight占用比例
+    wrap为正常比例，match为相反比例
+    -->
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+</LinearLayout>
